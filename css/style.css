@@ -78,7 +78,7 @@
     display: flex;
     width: min(100%, 1244px);
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     row-gap: 30px;
 }
 
