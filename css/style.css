@@ -122,7 +122,7 @@
     margin: auto;
     justify-content: center; 
     align-items: center;
-    padding: 70px 0px;
+    padding-block: 70px;
     row-gap: 40px;
 }
 
