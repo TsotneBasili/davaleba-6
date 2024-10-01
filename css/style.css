@@ -147,9 +147,13 @@
     justify-content: space-between;
 }
 
-
+.footer_nav_ul_li_a {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
 
 .footer_social_link {
-    font-size: 18px;
+    font-size: 100%;
     color: #FFFAF3;
 }
