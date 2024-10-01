@@ -17,6 +17,7 @@
     padding: 54px 94px;
     align-items: center;
     justify-content:space-between;
+    row-gap: 30px;
     flex-wrap: wrap;  
 }
 
@@ -39,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;  
+    row-gap: 30px;
 }
 
 .header_nav_ul_li_a {
@@ -85,13 +87,12 @@
 }
 
 .section_section_article {
+    display: flex;
     background-color: #DDEAF8;
     width: min(100%, 400px);
     padding: 30px;
     row-gap: 30px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: flex-end;
     border-radius: 10px;
 }
@@ -99,6 +100,7 @@
 .section_section_article_image {
     width: 85%;
     height: 220px;
+    object-fit: cover;
 }
 
 .section_sec_art_button {
@@ -110,7 +112,7 @@
     line-height: 32px; 
     background-color: #758BFD; 
     color: #FFFFFF;  
-    border:none
+    border: none
 }
 
 /* footer  */
@@ -120,7 +122,6 @@
     width: min(100%, 1440px);
     background-color: #758BFD;
     margin: auto;
-    justify-content: center; 
     align-items: center;
     padding-block: 70px;
     row-gap: 40px;
