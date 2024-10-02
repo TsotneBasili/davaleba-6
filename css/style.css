@@ -2,10 +2,6 @@
 .div {
     width: min(100%, 1440px);
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    row-gap: 98px;
-    
 }
 
 /* header  */
@@ -68,6 +64,7 @@
     margin: auto;
     flex-direction: column;
     row-gap: 68px;
+    margin-block: 94px;
 }
 
 .section_h2 {
